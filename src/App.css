@@ -1,0 +1,137 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.parent-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.MuiCardContent-root h2 {
+  color: rgba(0, 0, 0, 0.7019607843137254);
+  font-weight: bold;
+}
+.MuiCardContent-root p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 13px;
+}
+.MuiCardHeader-content span {
+  font-size: 11px !important;
+}
+.parent-card .MuiPaper-root {
+  flex: 1 0 21%;
+  margin: 5px;
+  margin-top: 20px;
+}
+.card-box {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-box:hover {
+  cursor: pointer;
+}
+/* .short-desc{
+  max-height: 100px;
+  min-height: 70px;
+} */
+
+.loading-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.parent-card a {
+  text-decoration: none;
+}
+
+.MuiPagination-ul {
+  padding-left: 50px !important;
+  padding-bottom: 100px;
+  flex-wrap: nowrap !important;
+}
+
+nav {
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+.skeleton-img {
+  margin-top: 50px;
+}
+
+.next-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.horizontal img {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.horizontal Button {
+  margin-top: 30px;
+}
+textarea#topic {
+  width: 100%;
+}
